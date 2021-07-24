@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ScrollView01"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:scrollbars="none" >
+
+
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Bill">
+
+ <TextView
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:text="Bill"
+     android:textColor="@color/black"
+     android:layout_centerHorizontal="true"
+     android:textSize="25dp"
+
+     />
+
+ <TextView
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:text="1>ITEM INFO"
+     android:textColor="@color/black"
+     android:layout_marginTop="50dp"
+     android:layout_marginLeft="5dp"
+     android:textSize="25dp"
+
+     />
+ <TextView
+     android:id="@+id/youritem"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:text="Your item"
+     android:textColor="@color/black"
+     android:layout_marginTop="90dp"
+     android:layout_marginLeft="50dp"
+     android:textSize="15dp"
+
+     />
+ <TextView
+     android:id="@+id/price"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:text="Price ₹ ___
+"
+     android:textColor="@color/black"
+     android:layout_marginTop="110dp"
+     android:layout_marginLeft="50dp"
+     android:textSize="15dp"
+
+     />
+
+ <TextView
+     android:id="@+id/c"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:text="Gold Coins___.
+
+"
+     android:textColor="@color/black"
+     android:layout_marginTop="110dp"
+     android:layout_marginLeft="300dp"
+     android:textSize="15dp"
+
+     />
+
+ <TextView
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:text="2>DELIVERY TIME
+"
+     android:textColor="@color/black"
+     android:layout_marginTop="150dp"
+     android:layout_marginLeft="5dp"
+     android:textSize="25dp"
+
+     />
+ <TextView
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:text="Less than 48 Hours"
+     android:textColor="@color/black"
+
+     android:layout_centerHorizontal="true"
+     android:layout_marginTop="200dp"
+     android:layout_marginLeft="70dp"
+     android:textSize="15dp"
+
+     />
+ <TextView
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:text="[we will try to deliver as soon as possible]
+"
+     android:textColor="@color/black"
+
+     android:layout_centerHorizontal="true"
+     android:layout_marginTop="220dp"
+     android:layout_marginLeft="70dp"
+     android:textSize="12dp"
+
+     />
+ <TextView
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:text="HELP
+"
+
+     android:textColor="@color/black"
+
+     android:layout_marginTop="240dp"
+
+     android:layout_marginLeft="70dp"
+     android:textSize="25dp"
+     />
+
+ <ImageView
+     android:layout_width="45dp"
+     android:layout_height="45dp"
+     android:src="@drawable/whatsapp"
+     android:layout_marginTop="235dp"
+     android:layout_marginLeft="130dp"
+     />
+ <ImageView
+     android:layout_width="45dp"
+     android:layout_height="45dp"
+     android:src="@drawable/insta"
+     android:layout_marginTop="235dp"
+     android:layout_marginLeft="180dp"
+     />
+
+ <ImageView
+     android:layout_width="100dp"
+     android:layout_height="100dp"
+     android:layout_marginLeft="210dp"
+     android:layout_marginTop="210dp"
+     android:src="@drawable/gmail" />
+ <ImageView
+     android:layout_width="82dp"
+     android:layout_height="126dp"
+     android:src="@drawable/facebook"
+     android:layout_marginTop="200dp"
+     android:layout_marginLeft="275dp"
+     />
+ <ImageView
+     android:layout_width="50dp"
+     android:layout_height="50dp"
+     android:src="@drawable/tele"
+     android:layout_marginTop="240dp"
+     android:layout_marginLeft="350dp"
+     />
+ <TextView
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:text="3>PAYMENTS"
+     android:textColor="@color/black"
+     android:layout_marginTop="300dp"
+     android:layout_marginLeft="5dp"
+     android:textSize="25dp"
+
+     />
+
+ <TextView
+     android:id="@+id/goldcoin"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:text="You have____Gold Coins "
+     android:textColor="@color/black"
+     android:layout_marginTop="350dp"
+     android:layout_marginLeft="50dp"
+     android:textSize="15dp"
+
+     />
+ <TextView
+android:id="@+id/ga"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:text="[Use]"
+     android:textColor="@color/black"
+     android:layout_marginTop="350dp"
+     android:layout_marginLeft="359dp"
+     android:textSize="15dp"
+
+     />
+
+
+
+
+
+ <TextView
+     android:id="@+id/bonus"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:text="You have____Bonus Gold Coins "
+     android:textColor="@color/black"
+     android:layout_marginTop="380dp"
+     android:layout_marginLeft="50dp"
+     android:textSize="15dp"
+
+     />
+ <TextView
+     android:id="@+id/b"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:text="[Use]"
+     android:textColor="@color/black"
+     android:layout_marginTop="380dp"
+     android:layout_marginLeft="359dp"
+     android:textSize="15dp"
+
+     />
+
+ <TextView
+     android:id="@+id/t"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:text="You have____Discount Coupon"
+     android:textColor="@color/black"
+     android:layout_marginTop="410dp"
+     android:layout_marginLeft="50dp"
+     android:textSize="15dp"
+
+     />
+ <TextView
+     android:id="@+id/d"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:text="[Use]"
+     android:textColor="@color/black"
+     android:layout_marginTop="410dp"
+     android:layout_marginLeft="359dp"
+     android:textSize="15dp"
+
+     />
+
+ <TextView
+     android:id="@+id/subs"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:text="SUB TOTAL ₹_"
+     android:textSize="20dp"
+     android:textColor="@color/colorRed"
+     android:background="@color/pink"
+     android:layout_centerHorizontal="true"
+     android:layout_marginTop="450dp"
+     />
+
+ <TextView
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:text="4>EARLY REDEEM FEES"
+     android:textColor="@color/black"
+     android:layout_marginTop="500dp"
+     android:layout_marginLeft="5dp"
+     android:textSize="25dp"
+
+     />
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+android:layout_centerHorizontal="true"
+    android:textColor="@color/pink"
+    android:layout_marginTop="550dp"
+    android:text="(applies when you buy before AdBar is NOT
+100%)"
+
+    />
+ <TextView
+     android:id="@+id/noerf"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+android:textColor="@color/black"
+     android:layout_marginTop="590dp"
+     android:text="You have
+_____NO ERF Coupon"
+     android:layout_marginLeft="60dp"
+
+     />
+
+ <TextView
+     android:id="@+id/totalerf"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_marginLeft="90dp"
+     android:layout_marginTop="620dp"
+
+     android:text="Total ERF__Gold Coins"
+     android:textColor="#FF173C"
+     android:textSize="20dp"
+
+     />
+ <TextView
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_marginLeft="130dp"
+     android:layout_marginTop="650dp"
+android:gravity="center
+"
+     android:text="20% of total Gold Coins Used"
+     android:textColor="@color/black"
+     android:textSize="9dp"
+
+     />
+ <TextView
+     android:id="@+id/total"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+android:text="TOTAL-_______"
+     android:textSize="25dp"
+     android:textColor="@color/red"
+     android:background="@color/pink"
+
+     android:layout_marginLeft="50dp"
+     android:layout_marginTop="680dp"
+
+     />
+ <Button
+     android:id="@+id/out"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:text="Checkout"
+     android:textSize="25dp"
+     android:textColor="@color/white"
+     android:background="@drawable/round"
+     android:backgroundTint="#007964"
+     android:layout_marginLeft="250dp"
+     android:layout_marginTop="665dp"
+android:textAllCaps="false"
+     />
+</RelativeLayout>
+</ScrollView>

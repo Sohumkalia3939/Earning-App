@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Convert">
+<include layout="@layout/em"></include>
+
+    <ImageView
+        android:layout_width="102dp"
+        android:layout_height="122dp"
+        android:src="@drawable/l"
+android:layout_marginTop="100dp"
+        android:layout_marginLeft="80dp"
+        ></ImageView>
+
+    <ImageView
+        android:layout_width="101dp"
+        android:layout_height="99dp"
+        android:layout_above="@+id/plane"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+
+        android:layout_marginTop="110dp"
+        android:layout_marginBottom="41dp"
+        android:src="@drawable/plane" />
+
+    <ImageView
+        android:layout_width="102dp"
+        android:layout_height="122dp"
+        android:layout_marginLeft="230dp"
+        android:layout_marginTop="100dp"
+        android:src="@drawable/gold"></ImageView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Convert Time"
+
+        android:layout_centerHorizontal="true"
+android:layout_marginTop="250dp"
+        android:textSize="35dp"
+        android:textColor="@color/black"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="8:30pm - 9pm  (INDIA)"
+
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="300dp"
+        android:textSize="35dp"
+        android:textColor="@color/black"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="EVERYDAY"
+
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="340dp"
+
+        android:textSize="25dp"
+        android:textColor="@color/textcolorads"
+        />
+
+    <TextView
+        android:id="@+id/coins"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="400dp"
+        android:text="You have_Silver Coins Today"
+
+        android:textSize="20dp" />
+
+<!--    <ImageView-->
+<!--        android:layout_width="42dp"-->
+<!--        android:layout_height="45dp"-->
+<!--        android:src="@drawable/q"-->
+<!--        android:layout_marginTop="390dp"-->
+<!--        android:layout_marginLeft="300dp"-->
+<!--        />-->
+
+<!--    <ImageView-->
+<!--        android:layout_width="32dp"-->
+<!--        android:layout_height="42dp"-->
+<!--        android:layout_marginLeft="350dp"-->
+<!--        android:layout_marginTop="390dp"-->
+<!--        android:src="@drawable/q" />-->
+
+    <Button
+        android:id="@+id/convert"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="450dp"
+        android:backgroundTint="@color/red"
+        android:text="Convert"
+
+        android:textAllCaps="false"
+        android:textSize="40dp"
+        app:cornerRadius="20dp">
+
+    </Button>
+
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:cornerRadius="20dp"
+        android:elevation="10dp"
+        android:textSize="10sp"
+        android:shadowColor="@color/black"
+        android:paddingHorizontal="12dp"
+        android:textAllCaps="false"
+
+        android:textColor="@color/black"
+        android:layout_centerHorizontal="true"
+android:layout_marginTop="520dp"
+        android:backgroundTint="#E1DFDF"
+        android:text="@string/why"
+
+
+        />
+
+    <TextView
+        android:id="@+id/d"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+android:layout_marginTop="800dp"
+
+        android:text="v"
+        />
+</RelativeLayout>

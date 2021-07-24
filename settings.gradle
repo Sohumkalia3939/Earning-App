@@ -1,0 +1,2 @@
+include ':app'
+rootProject.name = "CASHM4-MONEY,UC,DIAMONDS,RECHARGE,PROMOTIONS"

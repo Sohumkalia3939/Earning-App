@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/love"
+            android:title="Made by Indians with Love"
+            />
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/home"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/fri"
+            android:icon="@drawable/ic_baseline_mobile_friendly_24"
+            android:title="@string/fri" />
+        <item
+            android:id="@+id/pro"
+            android:icon="@drawable/person1"
+            android:title="My Profile"
+            />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/ic_baseline_add_business_24"
+            android:title="@string/order" />
+        <item
+            android:id="@+id/use"
+            android:title="How to use CashM4?"
+            />
+        <item
+            android:id="@+id/tru"
+            android:title="@string/tru" />
+        <item
+            android:id="@+id/in"
+            android:title="@string/in" />
+        <item
+            android:id="@+id/rate"
+            android:title="@string/rate" />
+        <item
+            android:id="@+id/help"
+            android:title="Help" />
+        <item
+            android:id="@+id/social"
+            android:title="@string/socialmedia" />
+
+        <item
+            android:id="@+id/com"
+            android:title="@string/con" />
+        <item
+            android:id="@+id/req"
+            android:title="@string/req" />
+        <item
+            android:id="@+id/up"
+            android:title="@string/Up" />
+        <item
+            android:id="@+id/glith"
+            android:title="@string/gli" />
+
+        <item
+            android:id="@+id/hate3"
+            android:title="I do not like__in CashM4"
+
+            />
+        <item
+            android:id="@+id/hate2"
+            android:title="I hate CashM4 because___"
+
+            />
+
+        <item
+            android:id="@+id/buaa"
+            android:title="Business enquires" />
+        <item
+            android:id="@+id/hate"
+            android:title="@string/hate" />
+        <item
+            android:id="@+id/dso"
+            android:title="Do not click here" />
+    </group>
+</menu>
